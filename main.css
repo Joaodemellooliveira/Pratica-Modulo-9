@@ -1,0 +1,173 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    background-color: black;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    background-color: black;
+    color: #fff;
+    padding: 30px 10px;
+    justify-content: center;
+}
+
+header img{
+    height: 60px;
+    margin-right: 20px;
+}
+
+header h1{
+    font-size: 40px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-right: 46px;
+}
+
+header button{
+    background-color: #00bf63;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    padding: 8px;
+}
+
+header button:hover{
+    background-color: #15d97a;
+}
+
+.form-container{
+    display: none;
+}
+
+form{
+    background-color: #f13223;
+    display: flex;
+    justify-content: center;
+    padding: 40px 20px;
+}
+
+form input{
+    height: 50px;
+    font-size: 16px;
+    align-items: center;
+    border: none;
+    border-bottom: 2px solid #fff;
+    background-color: black;
+    color: #fff;
+    width: 40%;
+    margin-right: 12px;
+    padding: 12px;
+    
+}
+
+form input:focus{
+    outline: none;
+}
+
+form button{
+    width: 50px;
+    height: 50px;
+    border: none;
+    margin-right: 12px;
+    font-size: 36px;
+    padding: 0;
+    font-weight: bold;
+    color: #fff;
+    cursor: pointer;
+    align-self: center;
+}
+
+#botao-adicionar{
+    background-color: #00bf63;
+    font-size: 42px;
+}
+
+#botao-adicionar:hover{
+    background-color: #15d97a;
+}
+
+#botao-cancelar{
+    background-color: #da1607;
+}
+
+#botao-cancelar:hover{
+    background-color: #d3493f;
+}
+
+hr{
+    height: 20px;
+    background-color: #3d3d3d;
+    border: none;
+}
+
+ul{
+    background-color: #fa6559;
+    padding: 40px 80px;
+    display: none;
+}
+
+li{
+    display: flex;
+    align-items: center;
+    width: fit-content;
+    color: #fff;
+    list-style: none;
+    height: 70px;
+    margin-bottom: 20px;
+    border-right: 10px solid #3d3d3d;
+}
+
+
+li h2{
+    background-color: black;
+    padding: 20px;
+    height: 70px;
+}
+
+.h2-completo{
+    text-decoration: line-through;
+    color: #ffffff95;
+}
+
+li button{
+    height: 50px;
+    border: none;
+    text-align: center;
+    padding: 0 10px;
+    border-radius: 5px;
+}
+
+li img{
+    height: 44px;
+}
+
+.botao-completar{
+    padding-top: 2.5px;
+    background-color: #ffde59;
+    cursor: pointer;
+    display: none;
+}
+
+.botao-completar:hover{
+    background-color: #ffe47a;
+}
+
+.botao-completo{
+    padding-top: 1px;
+    background-color: #00bf63;
+}
+
+footer{
+    background-color: black;
+    color: #fff;
+    padding: 20px;
+}

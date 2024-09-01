@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="http://fonts.googleapis.com">
+    <link rel="preconnect" href="http://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./main.css">
+    <title>Lista de Tarefas</title>
+</head>
+<body>
+    <header>
+        <img src="./Images/Logo.png" alt="logo de lista"/>
+        <h1>Lista de Tarefas</h1>
+        <button type="button" title="Adicionar nova tarefa">Nova tarefa +</button>
+    </header>
+    <div class="form-container">
+        <form>
+            <input type="text" required placeholder="Nome da tarefa" id="input-tarefa">
+            <button type="submit" id="botao-adicionar" title="Adicionar">+</button>
+            <button type="reset" id="botao-cancelar" title="Cancelar">X</button>
+        </form>
+    </div>
+    <hr>
+    <ul>
+    </ul>
+    <footer>
+        <p>Desenvolvido por João de Mello para o curso de desenvolvedor full stack Pyton da EBAC</p>
+        <p>&copy 2024 - All rights reserved</p>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="./main.js"></script>
+</body>
+</html>
